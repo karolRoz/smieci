@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\czajnik\\Zadanie 8.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\czajnik\\Zadanie 8.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\czajnik\\Zadanie 8.csproj",
+        "projectName": "Zadanie 8",
+        "projectPath": "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\czajnik\\Zadanie 8.csproj",
+        "packagesPath": "C:\\Users\\Komp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\czajnik\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Komp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\Komp\\Desktop\\Projektowanie_Obie\\Helpers\\Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GlmSharp": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.7.7, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "glfw-net": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
